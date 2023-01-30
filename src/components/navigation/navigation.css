@@ -1,0 +1,37 @@
+nav{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav li{
+    display: inline-block;
+    margin: 20px 25px;
+}
+
+nav a {
+    font-size: 1.3em;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    color: aqua;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+    float: left;
+    margin: 10px 15px;
+}
+
+@media screen and (max-width: 600px){
+    ul.nav li{
+        float: none;
+    }
+}

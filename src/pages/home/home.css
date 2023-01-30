@@ -1,0 +1,18 @@
+main {
+    margin: 0;
+}
+
+.bgdimg {
+    background-image: url('../../../public/cover_home_page.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+h2{
+    margin-left: 15px;
+    color: white;
+}
+p {
+    margin-left: 15px;
+    color: white;
+}
